@@ -9,7 +9,7 @@ const HomePage: React.FC = () => {
         {/* Hero Section */}
         <section className="text-center mb-20">
           <div className="inline-block bg-blue-100 text-blue-700 px-4 py-1 rounded-full text-sm font-medium mb-6">
-            Yapay Zeka Destekli Sağlık Asistanı
+            AI Sağlık Asistanı
           </div>
           <h1 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
             Sağlık Asistanınız <span className="text-blue-600">Yanınızda</span>
