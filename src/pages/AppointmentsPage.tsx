@@ -12,20 +12,7 @@ interface Appointment {
 
 const AppointmentsPage: React.FC = () => {
   const [appointments, setAppointments] = useState<Appointment[]>([
-    {
-      id: '1',
-      date: '2025-06-15',
-      time: '14:30',
-      reason: 'Yıllık check-up',
-      status: 'scheduled',
-    },
-    {
-      id: '2',
-      date: '2025-06-10',
-      time: '10:00',
-      reason: 'Diş kontrolü',
-      status: 'scheduled',
-    },
+    
   ]);
 
   const [showForm, setShowForm] = useState(false);

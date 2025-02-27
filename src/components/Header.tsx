@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
             <Activity className="h-8 w-8 text-blue-600" />
-            <span className="ml-2 text-xl font-bold text-gray-900">Sağlık Asistanı</span>
+            <span className="ml-2 text-xl font-bold text-gray-900">Yapay Zeka Destekli Sağlık Asistanı</span>
           </div>
           
           <nav className="hidden md:flex space-x-8">
